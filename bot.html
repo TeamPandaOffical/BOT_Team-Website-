@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BOT•TEAM - PUBG အသင်း</title>
+  <style>
+    body {
+      font-family: 'Myanmar Text', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      margin: 0; padding: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #00ffcc;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #00ffcc;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #00ffcc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      border-bottom: 2px solid #00ffcc;
+      padding-bottom: 5px;
+    }
+    ul.team-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul.team-list li {
+      padding: 8px 0;
+      font-size: 1.2em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 12px;
+      text-align: center;
+      font-size: 1em;
+    }
+    th {
+      background-color: #222;
+      color: #00ffcc;
+    }
+    tr:nth-child(even) {
+      background-color: #1a1a1a;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #1f1f1f;
+      color: #888;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+    @media(max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      th {
+        text-align: left;
+      }
+      td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+      }
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+        color: #00ffcc;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>BOT•TEAM</h1>
+  <nav>
+    <a href="#team">အသင်းဝင်များ</a>
+    <a href="#schedule">ပြိုင်ပွဲအချိန်ဇယား</a>
+    <a href="#history">ပြိုင်ပွဲအကျဉ်း</a>
+    <a href="#gallery">ဓာတ်ပုံများ</a>
+    <a href="#contact">ဆက်သွယ်ရန်</a>
+    <a href="#join">အသင်းဝင်အသစ်</a>
+  </nav>
+</header>
+
+<section id="team">
+  <h2>အသင်းဝင်များ</h2>
+  <ul class="team-list">
+    <li>Myominzaw – အသင်းခေါင်းဆောင် & Sniper</li>
+    <li>LinnLatKhyeZin – Rusher</li>
+    <li>NandaAung – Support</li>
+  </ul>
+</section>
+
+<section id="schedule">
+  <h2>ပြိုင်ပွဲအချိန်ဇယား</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>နေ့ရက်</th>
+        <th>အချိန်</th>
+        <th>အမျိုးအစား</th>
+        <th>မြေပုံ</th>
+        <th>ပြိုင်ဖက်အသင်း</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="နေ့ရက်">ဇူလိုင် 7</td>
+        <td data-label="အချိန်">7:00 PM</td>
+        <td data-label="အမျိုးအစား">TDM</td>
+        <td data-label="မြေပုံ">Warehouse</td>
+        <td data-label="ပြိုင်ဖက်အသင်း">Team X</td>
+      </tr>
+      <tr>
+        <td data-label="နေ့ရက်">ဇူလိုင် 9</td>
+        <td data-label="အချိန်">8:30 PM</td>
+        <td data-label="အမျိုးအစား">Classic</td>
+        <td data-label="မြေပုံ">Erangel</td>
+        <td data-label="ပြိုင်ဖက်အသင်း">Team Dragon</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="history">
+  <h2>ပြိုင်ပွဲအကျဉ်း</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>နေ့ရက်</th>
+        <th>အမျိုးအစား</th>
+        <th>Kills</th>
+        <th>ရလဒ်</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="နေ့ရက်">ဇူလိုင် 2</td>
+        <td data-label="အမျိုးအစား">Classic</td>
+        <td data-label="Kills">19</td>
+        <td data-label="ရလဒ်">Winner</td>
+      </tr>
+      <tr>
+        <td data-label="နေ့ရက်">ဇူလိုင် 4</td>
+        <td data-label="အမျိုးအစား">Scrim</td>
+        <td data-label="Kills">13</td>
+        <td data-label="ရလဒ်">2nd Place</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="gallery">
+  <h2>ဓာတ်ပုံများ</h2>
+  <p>ဤနေရာတွင် ဂိမ်း screenshot များ၊ အသင်း clips များ ထည့်နိုင်ပါသည်။</p>
+</section>
+
+<section id="contact">
+  <h2>ဆက်သွယ်ရန်</h2>
+  <ul>
+    <li>Facebook: <a href="https://facebook.com/botteam" target="_blank" style="color:#00ffcc;">facebook.com/botteam</a></li>
+    <li>Telegram: <a href="https://t.me/botteam" target="_blank" style="color:#00ffcc;">@botteam</a></li>
+  </ul>
+</section>
+
+<section id="join">
+  <h2>အသင်းဝင်အသစ် ဖြစ်ရန်</h2>
+  <form onsubmit="alert('Thanks for applying! We will contact you soon.'); return false;">
+    <label for="name">အမည်</label><br />
+    <input type="text" id="name" name="name" required style="width:100%; padding:8px; margin-bottom:10px;" /><br />
+    
+    <label for="id">PUBG ID</label><br />
+    <input type="text" id="id" name="id" required style="width:100%; padding:8px; margin-bottom:10px;" /><br />
+    
+    <label for="role">လိုချင်သော အခန်းကဏ္ဍ</label><br />
+    <select id="role" name="role" required style="width:100%; padding:8px; margin-bottom:10px;">
+      <option value="">-- ရွေးပါ --</option>
+      <option value="sniper">Sniper</option>
+      <option value="rusher">Rusher</option>
+      <option value="support">Support</option>
+    </select><br />
+    
+    <label for="screenshot">Screenshot Link (optional)</label><br />
+    <input type="url" id="screenshot" name="screenshot" placeholder="https://..." style="width:100%; padding:8px; margin-bottom:10px;" /><br />
+    
+    <button type="submit" style="padding:10px 20px; background:#00ffcc; border:none; cursor:pointer; font-weight:bold;">
+      လျှောက်ထားမည်
+    </button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 BOT•TEAM. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
